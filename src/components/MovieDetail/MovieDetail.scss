@@ -1,0 +1,58 @@
+@import "../../common/variables";
+
+.movie-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0px;
+  color: $font-color;
+  font-weight: 400;
+}
+
+.movie-rating {
+  padding-left: 3px;
+  margin-top: 20px;
+  color: $font-secondary;
+  span {
+    margin-right: 20px;
+  }
+}
+
+.movie-title {
+  font-size: 40px;
+  color: $font-color;
+}
+.movie-plot {
+  margin-top: 20px;
+  line-height: 1.8rem;
+}
+
+.movie-info > div span:first-child {
+  padding: 10px 0px;
+  color: $font-color;
+  font-weight: 600;
+  width: 100%;
+  display: inline-block;
+}
+.movie-info > div span {
+  color: $font-secondary;
+}
+
+.fa-star {
+  color: #ff9e00;
+}
+
+.fa-thums-up {
+  color: #fafafa;
+}
+
+.fa-film {
+  color: rgba(191, 213, 214);
+}
+
+.fa-calendar {
+  color: peachpuff;
+}
+
+.section-right {
+  margin-left: 30px;
+}
